@@ -39,7 +39,25 @@ output_format: sdf
 > **Note**
 > Number of `rgroup` key (r`1`, r`2`, etc.) must corresponds to atom-map number of dummy atoms in the core structure.
 
+> **Note**
+> You do NOT have to specify Atom-map number of dummy atoms in SMILES files for R-group.
+> This information is automatically added in the script using `rgroup` key.
+
 You can specify `smi` or `sdf` as an `output_format`.
 
 - If you want to enumerate all structures quickly, specify `smi`.
 - If you want to preserve the positions of the core atoms, specify `sdf`.
+
+## Visual example
+
+### Core structure
+
+![Core structure](/fig/core_structure.png)
+
+### R-groups
+
+![R-groups](/fig/rgroups.png)
+
+### Enumaration result
+
+![Result](/fig/enumeration_result.png)

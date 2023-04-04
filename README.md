@@ -13,6 +13,14 @@ pip install rdkit==2022.9.5
 
 ## How to use
 
+Prepare a config file, and then just run the following command:
+
+```bash
+python run.py -c config.yaml
+```
+
+### How to prepare configuration file
+
 Specify a core structure and R-group list in a configuration file as follows.
 
 ```yaml

@@ -1,0 +1,7 @@
+core: data/core_structure.smi
+rgroup:
+  r1: data/r-group01.smi
+  r2: data/r-group02.smi
+  r3: data/r-group03.smi
+output: result/enumerated_structures.sdf
+output_format: sdf
